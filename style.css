@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/ba.webp);
+}
+body{
+    overflow: hidden;
+    /* text-align: center; */
+}
+.login{
+    
+    background-color: rgb(2, 8, 6);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login .border{
+    position: relative;
+    top: 10vh;
+    width: 50vh;
+    border: 3px black solid;
+}
+#name, #email ,#dob ,#mobile-number ,#password{
+    width: 40vh;
+    height: 3vh;
+   
+}
+button{
+    border-radius: 10%;
+    width: 20vw;
+}
